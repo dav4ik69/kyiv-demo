@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="uk" class="scroll-smooth">
+<head>
+<meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HOT CUP — кав'ярня на Оболоні</title>
+<meta name="description" content="HOT CUP — кав'ярня на Оболонському проспекті, 26. 5,0 ★ у Google. Замовте каву заздалегідь і заберіть без черги.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&subset=cyrillic&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  colors: { cream: '#FAF7F2', sand: '#F1E8DC', ink: '#231A16', clay: '#C86D51', clayd: '#A9553C', olive: '#4A5D4E' },
+  fontFamily: { serif: ['"Playfair Display"', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] }
+}}}
+</script>
+<style>
+  body { -webkit-font-smoothing: antialiased; }
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
+  .reveal.in { opacity: 1; transform: none; }
+  .d1 { transition-delay: .08s } .d2 { transition-delay: .16s } .d3 { transition-delay: .24s }
+  .marquee { display: flex; width: max-content; animation: mq 32s linear infinite; }
+  @keyframes mq { to { transform: translateX(-50%); } }
+  .hero-title { font-size: clamp(46px, 9vw, 128px); line-height: .98; letter-spacing: -0.035em; }
+  .h2 { font-size: clamp(36px, 5.5vw, 72px); line-height: 1.02; letter-spacing: -0.03em; }
+  header.shrink .bar { height: 56px; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .marquee { animation: none; }
+  }
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"HOT CUP","address":"Оболонський проспект, 26, Київ","telephone":"+380505032010","openingHours":"Mo-Su 08:30-21:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"156"}}
+</script>
+</head>
+<body class="bg-cream text-ink font-sans">
+
+<div class="bg-sand text-ink/70 text-[12px] text-center py-2 px-4">Демо-версія сайту для HOT CUP. Це не офіційний сайт кав'ярні.</div>
+
+<!-- Header -->
+<header id="hdr" class="sticky top-0 z-40 bg-cream/75 backdrop-blur-xl border-b border-ink/5 transition-all">
+  <div class="bar max-w-6xl mx-auto px-5 h-16 flex items-center justify-between transition-all duration-300">
+    <a href="#top" class="flex items-center gap-2.5" aria-label="HOT CUP — на початок">
+      <svg width="26" height="26" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 12h17v7a8 8 0 0 1-8 8h-1a8 8 0 0 1-8-8v-7Z" fill="#C86D51"/><path d="M23 14h2.5a3.5 3.5 0 0 1 0 7H22" stroke="#231A16" stroke-width="2"/><path d="M11 4c-1 1.5 1 2.5 0 4M15.5 4c-1 1.5 1 2.5 0 4" stroke="#231A16" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span class="font-semibold tracking-tight text-[17px]">HOT CUP</span>
+    </a>
+    <nav class="hidden md:flex gap-8 text-[14px] text-ink/70">
+      <a href="#menu" class="hover:text-ink">Меню</a>
+      <a href="#order" class="hover:text-ink">Без черги</a>
+      <a href="#place" class="hover:text-ink">Атмосфера</a>
+      <a href="#contacts" class="hover:text-ink">Контакти</a>
+    </nav>
+    <a href="#contacts" class="rounded-full bg-ink text-cream text-[14px] font-medium px-4 py-2 hover:bg-clay transition-colors">Замовити</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- Hero: Apple product hero -->
+<section class="pt-14 md:pt-24 text-center px-5 overflow-hidden">
+  <p class="reveal text-clay font-medium tracking-wide text-[13px] uppercase">Оболонь · щодня з 08:30</p>
+  <h1 class="reveal d1 hero-title font-serif font-semibold mt-5">Кава, якій<br>ставлять <em class="text-clay">5,0</em></h1>
+  <p class="reveal d2 mt-6 text-[18px] md:text-[21px] text-ink/70 max-w-xl mx-auto">156 гостей оцінили HOT CUP на максимум. Замовте заздалегідь — і заберіть дорогою на роботу.</p>
+  <div class="reveal d3 mt-8 flex flex-wrap gap-3 justify-center">
+    <a href="#contacts" class="rounded-full bg-clay text-white font-medium px-7 py-3.5 hover:bg-clayd transition-colors">Замовити каву</a>
+    <a href="#menu" class="rounded-full text-clay font-medium px-5 py-3.5 hover:underline">Подивитися меню ›</a>
+  </div>
+
+  <div class="relative max-w-5xl mx-auto mt-14 md:mt-20">
+    <div id="heroImg" class="rounded-[28px] md:rounded-[40px] overflow-hidden will-change-transform" style="transform: scale(.88)">
+      <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=1800&q=80" alt="Склянка кави в сонячному світлі" class="w-full h-[440px] md:h-[620px] object-cover">
+    </div>
+    <div class="reveal absolute left-4 md:-left-6 bottom-6 md:bottom-12 bg-white rounded-2xl shadow-xl shadow-ink/10 px-5 py-4 text-left">
+      <div class="flex items-center gap-1 text-clay" aria-hidden="true">★★★★★</div>
+      <p class="font-semibold mt-1">5,0 у Google</p>
+      <p class="text-[13px] text-ink/60">156 відгуків гостей</p>
+    </div>
+    <div class="reveal d2 absolute right-4 md:-right-6 top-6 md:top-12 bg-olive text-cream rounded-2xl px-5 py-4 text-left">
+      <p class="text-[13px] opacity-80">Відкриті сьогодні</p>
+      <p class="font-semibold text-[18px]">08:30 – 21:00</p>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="mt-20 md:mt-28 border-y border-ink/10 py-5 overflow-hidden" aria-hidden="true">
+  <div class="marquee font-serif italic text-[28px] md:text-[40px] text-ink/80 gap-10 whitespace-nowrap">
+    <span>Еспресо</span><span class="text-clay">✦</span><span>Капучино</span><span class="text-clay">✦</span><span>Флет уайт</span><span class="text-clay">✦</span><span>Лате на рослинному</span><span class="text-clay">✦</span><span>Какао</span><span class="text-clay">✦</span><span>Свіжі круасани</span><span class="text-clay">✦</span>
+    <span>Еспресо</span><span class="text-clay">✦</span><span>Капучино</span><span class="text-clay">✦</span><span>Флет уайт</span><span class="text-clay">✦</span><span>Лате на рослинному</span><span class="text-clay">✦</span><span>Какао</span><span class="text-clay">✦</span><span>Свіжі круасани</span><span class="text-clay">✦</span>
+  </div>
+</div>
+
+<!-- Menu -->
+<section id="menu" class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+  <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+    <h2 class="reveal h2 font-serif font-semibold max-w-xl">Хіти, за якими <em class="text-clay">повертаються</em></h2>
+    <p class="reveal d1 text-ink/60 max-w-sm">Готуємо на свіжообсмаженому зерні. Альтернативне молоко — без доплати за питання «а яке у вас є?».</p>
+  </div>
+
+  <div class="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5">
+    <article class="reveal group">
+      <div class="rounded-3xl overflow-hidden aspect-[4/5] bg-sand"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80" alt="Капучино з латте-артом" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"></div>
+      <div class="mt-4 flex justify-between gap-2"><h3 class="font-semibold">Капучино</h3><span class="text-clay font-semibold whitespace-nowrap">від 65 ₴</span></div>
+      <p class="text-[14px] text-ink/60 mt-1">Ніжна пінка й густий смак. Найчастіше замовляють зранку.</p>
+    </article>
+    <article class="reveal d1 group">
+      <div class="rounded-3xl overflow-hidden aspect-[4/5] bg-sand"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80" alt="Чашка еспресо" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"></div>
+      <div class="mt-4 flex justify-between gap-2"><h3 class="font-semibold">Еспресо</h3><span class="text-clay font-semibold whitespace-nowrap">від 45 ₴</span></div>
+      <p class="text-[14px] text-ink/60 mt-1">Щільний, з карамельною солодкістю. Для тих, хто поспішає.</p>
+    </article>
+    <article class="reveal d2 group">
+      <div class="rounded-3xl overflow-hidden aspect-[4/5] bg-sand"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" alt="Айс-лате у високій склянці" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"></div>
+      <div class="mt-4 flex justify-between gap-2"><h3 class="font-semibold">Айс-лате</h3><span class="text-clay font-semibold whitespace-nowrap">від 80 ₴</span></div>
+      <p class="text-[14px] text-ink/60 mt-1">Холодна кава з молоком і льодом — улюблене влітку й не тільки.</p>
+    </article>
+    <article class="reveal d3 group">
+      <div class="rounded-3xl overflow-hidden aspect-[4/5] bg-sand"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Свіжі круасани" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="lazy"></div>
+      <div class="mt-4 flex justify-between gap-2"><h3 class="font-semibold">Круасан</h3><span class="text-clay font-semibold whitespace-nowrap">від 55 ₴</span></div>
+      <p class="text-[14px] text-ink/60 mt-1">Хрусткий зовні, ніжний всередині. Ідеальна пара до капучино.</p>
+    </article>
+  </div>
+  <p class="text-[12px] text-ink/40 mt-6">У демо ціни орієнтовні — на сайті будуть ваші.</p>
+</section>
+
+<!-- Order ahead: split -->
+<section id="order" class="bg-sand">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32 grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+    <div class="reveal rounded-[32px] overflow-hidden order-2 md:order-1">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80" alt="Друзі тримають чашки з кавою" class="w-full h-[420px] md:h-[560px] object-cover" loading="lazy">
+    </div>
+    <div class="order-1 md:order-2">
+      <h2 class="reveal h2 font-serif font-semibold">Ваша кава вже <em class="text-clay">чекає</em></h2>
+      <p class="reveal d1 mt-5 text-ink/70 text-[17px]">Не стійте в черзі о 8:45. Залиште замовлення — бариста приготує його точно до вашого приходу.</p>
+      <ol class="mt-10 space-y-7">
+        <li class="reveal d1 flex gap-5"><span class="font-serif italic text-clay text-[34px] leading-none w-8">1</span><div><h3 class="font-semibold">Обираєте напій</h3><p class="text-ink/60 text-[15px] mt-1">У формі нижче або телефоном — займе пів хвилини.</p></div></li>
+        <li class="reveal d2 flex gap-5"><span class="font-serif italic text-clay text-[34px] leading-none w-8">2</span><div><h3 class="font-semibold">Вказуєте час</h3><p class="text-ink/60 text-[15px] mt-1">«Буду за 10 хвилин» — і ми почнемо, коли треба.</p></div></li>
+        <li class="reveal d3 flex gap-5"><span class="font-serif italic text-clay text-[34px] leading-none w-8">3</span><div><h3 class="font-semibold">Забираєте гарячою</h3><p class="text-ink/60 text-[15px] mt-1">Заходите, називаєте ім'я — і йдете далі з кавою.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- Atmosphere: dark editorial -->
+<section id="place" class="bg-ink text-cream overflow-hidden">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32">
+    <h2 class="reveal h2 font-serif font-semibold max-w-3xl">Місце, де ранок<br>починається <em class="text-clay">правильно</em></h2>
+    <div class="mt-14 grid md:grid-cols-12 gap-4 md:gap-5">
+      <div class="reveal md:col-span-7 rounded-[28px] overflow-hidden"><img data-parallax src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1400&q=80" alt="Інтер'єр кав'ярні з барною стійкою" class="w-full h-[360px] md:h-[520px] object-cover scale-110" loading="lazy"></div>
+      <div class="md:col-span-5 grid gap-4 md:gap-5">
+        <div class="reveal d1 rounded-[28px] bg-cream/5 border border-cream/10 p-7">
+          <p class="font-serif text-[52px] leading-none text-clay">5,0</p>
+          <p class="mt-3 font-semibold">Ідеальний рейтинг</p>
+          <p class="text-cream/60 text-[15px] mt-1">Середня оцінка від 156 гостей у Google Maps.</p>
+        </div>
+        <div class="reveal d2 rounded-[28px] overflow-hidden relative min-h-[220px]">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Капучино серед рослин" class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-ink/80 to-transparent"></div>
+          <p class="absolute bottom-6 left-7 right-7 font-semibold text-[18px]">Затишно, щоб попрацювати з ноутбуком або зустрітися з друзями</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="max-w-6xl mx-auto px-5 py-24 md:py-32 text-center">
+  <p class="reveal text-clay text-[28px] tracking-[.2em]" aria-hidden="true">★★★★★</p>
+  <h2 class="reveal d1 h2 font-serif font-semibold mt-4">156 гостей. Середня — <em class="text-clay">5,0</em>.</h2>
+  <p class="reveal d2 mt-5 text-ink/60 max-w-lg mx-auto">Не віримо на слово — почитайте самі, що пишуть про HOT CUP у Google Maps.</p>
+  <a href="https://www.google.com/maps/search/HOT+CUP+Оболонський+проспект+26+Київ" target="_blank" rel="noopener" class="reveal d3 inline-block mt-8 rounded-full border border-ink/20 px-7 py-3.5 font-medium hover:border-clay hover:text-clay transition-colors">Відгуки в Google ›</a>
+</section>
+
+<!-- Contacts + form -->
+<section id="contacts" class="bg-sand">
+  <div class="max-w-6xl mx-auto px-5 py-24 md:py-32 grid lg:grid-cols-2 gap-10 lg:gap-16">
+    <div>
+      <h2 class="reveal h2 font-serif font-semibold">Замовте <em class="text-clay">заздалегідь</em></h2>
+      <p class="reveal d1 mt-5 text-ink/70 text-[17px]">Залиште ім'я та телефон — передзвонимо за 15 хвилин і приготуємо каву до вашого приходу.</p>
+
+      <form id="orderForm" class="reveal d2 mt-10 bg-white rounded-[28px] p-6 md:p-8 shadow-xl shadow-ink/5 space-y-4" novalidate>
+        <div>
+          <label for="f-name" class="text-[13px] text-ink/60">Ім'я</label>
+          <input id="f-name" name="name" required placeholder="Олена" class="mt-1.5 w-full rounded-xl bg-cream border border-ink/10 px-4 py-3.5 outline-none focus:border-clay">
+        </div>
+        <div>
+          <label for="f-phone" class="text-[13px] text-ink/60">Телефон</label>
+          <input id="f-phone" name="phone" type="tel" required placeholder="+380 __ ___ __ __" class="mt-1.5 w-full rounded-xl bg-cream border border-ink/10 px-4 py-3.5 outline-none focus:border-clay">
+        </div>
+        <div>
+          <label for="f-what" class="text-[13px] text-ink/60">Що приготувати</label>
+          <select id="f-what" name="what" class="mt-1.5 w-full rounded-xl bg-cream border border-ink/10 px-4 py-3.5 outline-none focus:border-clay">
+            <option>Капучино</option><option>Еспресо</option><option>Айс-лате</option><option>Флет уайт</option><option>Какао</option><option>Інше — скажу по телефону</option>
+          </select>
+        </div>
+        <button class="w-full rounded-full bg-clay text-white font-medium py-4 hover:bg-clayd transition-colors">Замовити</button>
+        <p id="formMsg" class="hidden text-center text-olive font-medium">Дякуємо! Ми зателефонуємо за 15 хвилин.</p>
+      </form>
+    </div>
+
+    <div class="reveal d1 flex flex-col gap-4">
+      <div class="rounded-[28px] overflow-hidden h-[300px] lg:h-[380px] bg-white">
+        <iframe title="HOT CUP на карті" src="https://www.google.com/maps?q=%D0%9E%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+26+%D0%9A%D0%B8%D1%97%D0%B2&output=embed" class="w-full h-full border-0" loading="lazy"></iframe>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="rounded-[24px] bg-white p-6"><p class="text-[13px] text-ink/50">Адреса</p><p class="font-semibold mt-1">Оболонський просп., 26</p></div>
+        <div class="rounded-[24px] bg-white p-6"><p class="text-[13px] text-ink/50">Щодня</p><p class="font-semibold mt-1">08:30 – 21:00</p></div>
+        <a href="tel:+380505032010" class="col-span-2 rounded-[24px] bg-ink text-cream p-6 flex items-center justify-between hover:bg-clay transition-colors"><span><span class="block text-[13px] opacity-60">Телефон</span><span class="font-semibold text-[20px]">050 503 20 10</span></span><span class="text-[24px]" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="bg-cream border-t border-ink/10">
+  <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row gap-4 md:items-center md:justify-between text-[14px] text-ink/60">
+    <p><span class="font-semibold text-ink">HOT CUP</span> · кав'ярня на Оболоні</p>
+    <p>Оболонський проспект, 26, Київ · щодня 08:30–21:00 · <a href="tel:+380505032010" class="text-ink hover:text-clay">050 503 20 10</a></p>
+  </div>
+</footer>
+
+<script>
+  // плавне появлення блоків
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // фото першого екрана збільшується при прокрутці, шапка зменшується, паралакс
+  const heroImg = document.getElementById('heroImg'), hdr = document.getElementById('hdr');
+  const px = document.querySelectorAll('[data-parallax]');
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let ticking = false;
+  function frame() {
+    const y = scrollY, vh = innerHeight;
+    hdr.classList.toggle('shrink', y > 40);
+    if (!still) {
+      const r = heroImg.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (vh - r.top) / (vh * 0.9)));
+      heroImg.style.transform = `scale(${0.88 + 0.12 * p})`;
+      px.forEach(img => { const b = img.getBoundingClientRect(); img.style.transform = `scale(1.1) translateY(${(b.top + b.height / 2 - vh / 2) * -0.06}px)`; });
+    } else heroImg.style.transform = 'none';
+    ticking = false;
+  }
+  addEventListener('scroll', () => { if (!ticking) { requestAnimationFrame(frame); ticking = true; } }, { passive: true });
+  frame();
+
+  // форма
+  document.getElementById('orderForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const f = e.target;
+    if (!f.name.value.trim() || f.phone.value.replace(/\D/g, '').length < 10) {
+      (f.name.value.trim() ? f.phone : f.name).focus();
+      return;
+    }
+    f.querySelector('button').classList.add('hidden');
+    document.getElementById('formMsg').classList.remove('hidden');
+  });
+</script>
+</body>
+</html>
